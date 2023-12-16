@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* Main Body. Overflow Hidden makes the webpage such that the overflowed content is adjusted within the required space and scroll bar disappears, making the webpage look neater */
+body{
+    background-color: rgb(28, 23, 23);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+/* Arrows */
+#top-left-right-arrows{
+    position: relative;
+    top: 10px;
+    left: 199px;
+    height: 32px;
+}
+/* Upon pointing the image/ box, a exciting white border and pointing cursor appears taking the User Interaction to whole new level! */
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+/* Positioning the navbar to give the spotify feel! */
+nav{
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    height: 700px;
+    color: rgb(255, 255, 255);
+    word-spacing: 1px;
+    font-size: 12px;
+    text-align: left;
+    width: 195px;
+}
+
+#spotify-logo{
+    height: 50px;
+}
+
+#home,#search,#library,#create,#likes,#your-episodes,#install{
+    height: 22px;
+    width: 22px;
+}
+
+footer{
+    position: relative;
+    top: 519px;
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+/* Accesories playbuttons, etc involved in the page and their customization */
+#accessories{
+    position: relative;
+    top: -10px;
+    left: 1200px;
+    height: 22px;
+}
+
+#option-play{
+    position: relative;
+    height: 70px;
+    left: 260px;
+    top: 10px;
+}
+
+/* Salutation images involved with text */
+#good-morning-liked{
+    position: relative;
+    left: 250px;
+    top: 60px;
+    border-radius: 5%;
+    background-color: rgb(7, 4, 4);
+    height: 90px;
+    width: 250px;
+    color: rgb(211, 212, 213);
+}
+
+#good-morning-neffex{
+    position: relative;
+    left: 550px;
+    top: -30px;
+    border-radius: 5%;
+    background-color: rgb(7, 4, 4);
+    height: 90px;
+    width: 250px;
+    color: rgb(212, 216, 220);
+}
+
+#good-morning-kda{
+    position: relative;
+    left: 850px;
+    top: -120px;
+    border-radius: 5%;
+    background-color: rgb(7, 4, 4);
+    height: 90px;
+    width: 250px;
+    color: rgb(224, 228, 232);
+}
+
+#good-morning-liked2{
+    position: relative;
+    left: 1150px;
+    top: -210px;
+    border-radius: 5%;
+    background-color: rgb(7, 4, 4);
+    height: 90px;
+    width: 250px;
+    color: rgb(234, 240, 246);
+}
+
+#good-morning-dance{
+    position: relative;
+    left: 250px;
+    top: -200px;
+    border-radius: 5%;
+    background-color: rgb(7, 4, 4);
+    height: 90px;
+    width: 250px;
+    color: rgb(232, 234, 236);
+}
+
+#liked-songs{
+    position: relative;
+    top: -25px;
+    left: -60px;
+}
+
+#Neffex-playlist,#k-da-songs,#liked-songs-2,#marshmellow-picture{
+    height:90px;
+}
+
+h4{
+    position: relative;
+    color: red;
+}
+
+#liked-songs-text{
+    position: relative;
+    color: white;
+    top: -355px;
+    left: 350px;
+}
+
+#neffex-paylist-text{
+    position: relative;
+    color: rgb(243, 243, 243);
+    top: -375px;
+    left: 650px;
+}
+
+#k-da-text{
+    position: relative;
+    color: rgb(245, 243, 243);
+    top: -390px;
+    left: 950px;
+}
+
+#angel-liked{
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: -410px;
+    left: 1250px;
+}
+
+#dance-elec{
+    position: relative;
+    color: rgb(245, 243, 243);
+    top: -340px;
+    left: 350px;
+}
+
+h2{
+    position: relative;
+    top: 300px;
+    left: 250px;
+    color: rgb(253, 253, 253);
+}
+
+#shows-you-might-like{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+}
+
+/* Recommendation images involved with text */
+#specs-tomato-guy, #specs-pony-girl, #specs-afro, #beach-korean, #black-hat-dress, #sunglass-violet-girl{
+    position: relative;
+    border-radius: 10%;
+    top: -210px;
+    left: 250px;
+    background-color: rgb(12, 210, 210);
+    height: 160px;
+    width: 150px;
+}
+
+#common-image-id{
+    height: 160px;
+    width: 150px;
+}
+/* Currently listening audio with picture */
+#currently-listening-audio-picture{
+    position: relative;
+    left:-819px;
+    height:69px
+}
+
+h5{
+    position: relative;
+    top: -50px;
+    left: 90px;
+}
+
+h6{
+    color: rgb(99, 99, 100);
+    position: relative;
+    top: -49px;
+    left: 99px;
+}
+
+#green-love{
+    position: relative;
+    height: 20px;
+    top: -75px;
+    left:200px;
+}
+
+#last-green-device-name-container{
+    position: relative;
+    top: 499px;
+    background-color: #1ED760;
+    height: 19px;
+    position: absolute;
+    top: 600px;
+}
+
+h1{
+    position: relative;
+    color:white;
+    left: 249px;
+    top: 49px;
+}
+
+#top-nav-bar{
+    color: rgb(251, 242, 242);
+}
+
+#currently-listening-audio{
+    position: relative;
+    top: -740px;
+}
